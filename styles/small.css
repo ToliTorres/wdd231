@@ -1,11 +1,11 @@
 :root {
-    --primary: #222;
-    --secondary: #e0e0e0;
-    --accent: #8BCADB;
-    --font-color: white;
-    --footer: #eee;
-    --nav-grad-start: #C5ADC5;
-    --nav-grad-end: #B2B5E0;
+    --primary: rgb(34 34 34);
+    --secondary: rgb(224 224 224);
+    --accent: rgb(139 202 219);
+    --font-color: rgb(255, 255, 255);
+    --footer: rgb(238 238 238);
+    --nav-grad-start: rgb(197 173 197);
+    --nav-grad-end: rgb(178 181 224);
 }
 
 * {
