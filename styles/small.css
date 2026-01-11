@@ -1,11 +1,9 @@
 :root {
     --primary: #222;
     --secondary: #e0e0e0;
-    --accent: #8BCADB; /*#4caf50*/
+    --accent: #8BCADB;
     --font-color: white;
     --footer: #eee;
-    
-    /* Nav gradient */
     --nav-grad-start: #C5ADC5;
     --nav-grad-end: #B2B5E0;
 }
@@ -39,9 +37,8 @@ body {
 nav {
     display: none;
     background: linear-gradient(90deg,
-                var(--nav-grad-start),
-                var(--nav-grad-end)
-    );
+            var(--nav-grad-start),
+            var(--nav-grad-end));
 }
 
 nav.open {
@@ -114,7 +111,7 @@ section h2 {
 
 .about-grid section {
     background: var(--secondary);
-    padding: 0rem;
+    padding: 0;
     border-radius: 12px;
 }
 
@@ -144,10 +141,8 @@ section h2 {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-
     background-color: var(--nav-grad-start);
-        color: var(--primary);
-    
+    color: var(--primary);
     transition: background-color 0.3s ease,
         transform 0.2s ease;
 }
@@ -183,31 +178,4 @@ footer {
     text-align: center;
     padding: 1rem;
     background: var(--footer);
-}
-
-/* DESKTOP */
-@media (min-width: 768px) {
-    #menuBtn {
-        display: none;
-    }
-
-    nav {
-        display: block;
-    }
-
-    nav ul {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    nav a {
-        background: none;
-        color: black;
-    }
-
-    .about-grid {
-        grid-template-columns: 2fr 1fr;
-    }
 }
