@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Linda Torres</title>
+    <meta name="description"
+        content="Personal course homepage with description about me, tracking of my projects, and final project.">
+    <meta name="author" content="Linda Torres">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/index.css">
+
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <img src="images/sensible.png" alt="Site logo" class="logo">
+            <span class="site-name">Linda Torres</span>
+            <button id="menuBtn" aria-label="Open Menu">☰</button>
+        </div>
+
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="chamber.html">Chamber Project</a></li>
+                <li><a href="final.html">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="about-grid">
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    My name is Linda Torres, I’m 36 years old and from Mexico City. <br> I’m an analytical person who
+                    enjoys programming, data analysis, scuba diving, traveling, and watching thrillers.
+                    I have three pets named after Pokémon and Star Wars characters. <br>
+                    I love Mexico for its diverse landscapes, climates, and cuisine, and I often travel
+                    to explore its regional dishes.
+                    I also appreciate that my career allows me to work from anywhere in the world.
+                </p>
+            </section>
+
+            <section>
+                <h2>Student Photo</h2>
+                <div class="photo-box">
+                    <img src="images/personal-photo.jpeg" alt="Student portrait" width="300" height="400">
+                </div>
+            </section>
+        </div>
+
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+
+            <div class="filters">
+                <button data-filter="all">All</button>
+                <button data-filter="CSE">CSE</button>
+                <button data-filter="WDD">WDD</button>
+            </div>
+
+            <div id="courseList"></div>
+
+            <p id="totalCredits"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/ToliTorres" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/linda-luz-torres-del-rio/" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://x.com/">X</a>
+        </div>
+        <p>
+            &copy; <span id="currentyear"></span> Linda Torres | Mexico
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+
+
+</body>
+
+</html>
