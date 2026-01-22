@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Tech Azteca Solutions",
+            "address": "Av. Reforma 123, CDMX",
+            "phone": "55-1234-5678",
+            "website": "https://aztecasolutions.com",
+            "image": "tech-logo.png",
+            "membership": 3,
+            "description": "Cleaning Services and Equipment Repair."
+        },
+        {
+            "name": "Vertex Innovations",
+            "address": "Ave Suite 100, Littleton, CO",
+            "phone": "01-2345-6789",
+            "website": "https://vertex-us.com",
+            "image": "vertex-logo.png",
+            "membership": 2,
+            "description": "Construction consultants services."
+        },
+        {
+            "name": "Centro Legal MX",
+            "address": "Eje Central No. 13, CDMX",
+            "phone": "55-3456-7890",
+            "website": "https://centrolegalmexico.com",
+            "image": "legal-logo.png",
+            "membership": 1,
+            "description": "Legal consulting services."
+        },
+        {
+            "name": "EcoBuild Constructors",
+            "address": "Santa Fe 210, CDMX",
+            "phone": "55-4567-8901",
+            "website": "https://ecobuild.mx",
+            "image": "eco-logo.jpg",
+            "membership": 3,
+            "description": "Sustainable construction company."
+        },
+        {
+            "name": "International Trade Council",
+            "address": "231 Bain Street, Singapore ",
+            "phone": "1-202-869-0988",
+            "website": "https://tradecouncil.org",
+            "image": "trade-logo.png",
+            "membership": 2,
+            "description": "Support businesses and governments."
+        },
+        {
+            "name": "Greater Valley Chamber of Commerce",
+            "address": "10 Progress Drive, Shelton, CT",
+            "phone": "203-925-4981",
+            "website": "https://greatervalleychamber.com",
+            "image": "valley-logo.png",
+            "membership": 3,
+            "description": "Leadership to enhance economic growth."
+        },
+        {
+            "name": "Mercado Digital MX",
+            "address": "Condesa 55, CDMX",
+            "phone": "55-7890-1234",
+            "website": "https://marketing-digital-mexico.com",
+            "image": "mark-logo.png",
+            "membership": 1,
+            "description": "Digital marketing agency."
+        }
+    ]
+}
