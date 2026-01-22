@@ -1,15 +1,15 @@
 body {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
-    background-color: #f4f6f8;
-    color: #222;
+    background-color: rgb(244 246 248);
+    color: rgb(34 34 34);
 }
 
 /* Header & Footer Base */
 header,
 footer {
-    background: #1f3a5f;
-    color: #ffffff;
+    background: rgb(31 58 95);
+    color: rgb(255 255 255);
     padding: 0;
 }
 
@@ -48,8 +48,8 @@ h3 {
 #menuBtn {
     margin-left: auto;
     background: none;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid rgb(255 255 255);
+    color: rgb(255 255 255);
     font-size: 1.2rem;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
@@ -107,21 +107,21 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgba(244, 180, 0, 0.15);
-    color: #f4b400;
+    color: rgb(244 180 0);
 }
 
 nav a {
-    color: #ffffff;
+    color: rgb(255 255 255);
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #f4b400;
+    color: rgb(244 180 0);
 }
 
 nav a.active {
-    color: #f4b400;
+    color: rgb(244 180 0);
 }
 
 /* Members Grid/List */
@@ -145,7 +145,7 @@ nav a.active {
     gap: 1rem;
     border-radius: 0;
     box-shadow: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(204, 204, 204);
 }
 
 #members.list .member-card h3 {
@@ -166,8 +166,8 @@ nav a.active {
 }
 
 .view-toggle button {
-    background-color: #1f3a5f;
-    color: white;
+    background-color: rgb(31 58 95);
+    color: rgb(255 255 255);
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -176,14 +176,14 @@ nav a.active {
 }
 
 .view-toggle button:hover {
-    background-color: #f4b400;
-    color: #142a44;
+    background-color: rgb(244 180 0);
+    color: rgb(20 42 68);
 }
 
 /* Member Card */
 .member-card {
-    background-color: #ffffff;
-    border: 1px solid #b0b7c3;
+    background-color: rgb(255 255 255);
+    border: 1px solid rgb(176, 183, 195);
     padding: 1.25rem;
     border-radius: 6px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
@@ -206,8 +206,8 @@ nav a.active {
 
 /* Footer */
 .site-footer {
-    background-color: #142a44;
-    color: #ffffff;
+    background-color: rgb(20, 42, 68);
+    color: rgb(255, 255, 255);
     padding: 2rem 1.5rem;
     font-size: 0.9rem;
 }
@@ -226,7 +226,7 @@ nav a.active {
 }
 
 .footer-contact strong {
-    color: #f4b400;
+    color: rgb(244, 180, 0);
 }
 
 .footer-contact p,
