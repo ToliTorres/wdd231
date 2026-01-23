@@ -8,7 +8,7 @@ body {
 /* Header & Footer Base */
 header,
 footer {
-    background: rgb(21, 42, 69); /*rgb(31 58 95);*/
+    background: rgb(31 58 95);
     color: rgb(255 255 255);
     padding: 0;
 }
@@ -117,11 +117,11 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(244 180 0);
+    color: rgb(255, 217, 102);/*rgb(244 180 0);*/
 }
 
 nav a.active {
-    color: rgb(244 180 0);
+    color: rgb(255, 217, 102);/*rgb(244 180 0);*/
 }
 
 /* Members Grid/List */
@@ -136,9 +136,6 @@ nav a.active {
 }
 
 #members.list .member-card {
-    /* display: flex;
-    gap: 1rem;
-    align-items: center; */
     display: grid;
     grid-template-columns: 120px 2fr 2fr 1.5fr 1fr;
     align-items: center;
@@ -166,7 +163,7 @@ nav a.active {
 }
 
 .view-toggle button {
-    background-color: rgb(21, 42, 69); /*rgb(31 58 95);*/
+    background-color: rgb(31 58 95);
     color: rgb(255 255 255);
     border: none;
     padding: 0.5rem 1rem;
@@ -226,7 +223,7 @@ nav a.active {
 }
 
 .footer-contact strong {
-    color: rgb(244, 180, 0);
+    color: rgb(255, 217, 102);/*rgb(244, 180, 0);*/
 }
 
 .footer-contact p,
