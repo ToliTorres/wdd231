@@ -40,10 +40,15 @@ function displayResults(data) {
     const icon = data.weather[0].icon;
     const desc = data.weather[0].description;
 
-    weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
-    weatherIcon.alt = desc;
+    // Only replace the icon if the API returns one
+    if (icon) {
+        weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+        weatherIcon.alt = desc;
+    }
+
     captionDesc.textContent = desc.charAt(0).toUpperCase() + desc.slice(1);
 }
+
 
 apiFetch();
 
