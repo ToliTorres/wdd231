@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexico City Chamber</title>
+    <meta name="description"
+        content="The Mexico City Chamber of Commerce supports local businesses by promoting economic growth, networking opportunities, community events, and professional resources that strengthen commerce and innovation in Mexico City.">
+    <meta name="author" content="Linda Torres">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/chamber-favicon.ico">
+
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="Mexico City Chamber of Commerce Directory">
+    <meta property="og:description"
+        content="Explore local businesses that are members of the Mexico City Chamber of Commerce.">
+    <meta property="og:image" content="https://tolitorres.github.io/wdd231/chamber/images/canaco-hero.jpg">
+    <meta property="og:url" content="https://tolitorres.github.io/wdd231/chamber/index.html">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="header-top">
+                <img src="images/chamber-mexico.jpg" alt="Mexico City Chamber of Commerce logo" class="logo"
+                    fetchpriority="high" width="300" height="200">
+                <h1>Mexico City Chamber of Commerce</h1>
+                <button id="menuBtn" aria-label="Open Menu">☰</button>
+            </div>
+
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <picture>
+                <img src="images/canaco-hero.jpg" alt="Mexico City Chamber hero" fetchpriority="high" width="200"
+                    height="100">
+            </picture>
+
+            <div class="hero-cta">
+                <h1>Mexico City Chamber of Commerce</h1>
+                <a href="join.html" class="cta-btn">Join the Chamber</a>
+            </div>
+        </section>
+
+        <!-- CURRENT EVENTS -->
+        <section class="events">
+            <h2>Current Events</h2>
+            <ul>
+                <li>📅 Business Networking Night – March 15</li>
+                <li>📈 Small Business Workshop – March 22</li>
+            </ul>
+        </section>
+
+        <!-- WEATHER -->
+        <section class="weather">
+            <h2>Weather in Mexico City</h2>
+            <p>Current Temperature: <span id="current-temp"></span></p>
+
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+
+            <h3>3-Day Forecast</h3>
+            <div class="forecast">
+                <p><span id="day1"></span></p>
+                <p><span id="day2"></span></p>
+                <p><span id="day3"></span></p>
+            </div>
+        </section>
+
+        <!-- SPOTLIGHTS -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-cards" class="spotlight-grid"></div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+
+            <!-- Left: Contact Info -->
+            <div class="footer-contact">
+                <p><strong>Mexico City Chamber of Commerce</strong></p>
+                <p>Av. Paseo de la Reforma 42</p>
+                <p>Mexico City, CP 06040</p>
+                <p>primercontacto@ccmexico.com.mx</p>
+                <p>(55) 3685-2269</p>
+            </div>
+
+            <!-- Center: Social Media -->
+            <div class="footer-social">
+                <a href="https://www.facebook.com/CANACOMexico">
+                    <img src="images/fb-icon.png" alt="Official Facebook page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://www.instagram.com/canacomexico/">
+                    <img src="images/ig-icon.png" alt="Official Instagram page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://www.linkedin.com/company/canaco-cdmx/mycompany/">
+                    <img src="images/in-icon.png" alt="Official LinkedIn page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://x.com/CANACOMexico">
+                    <img src="images/x-icon.png" alt="Official X page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://www.youtube.com/@CANACOCiudaddeMexico">
+                    <img src="images/yt-icon.png" alt="Official YouTube page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+
+
+            </div>
+
+            <!-- Right: Project Info -->
+            <div class="footer-project">
+                <p><strong>WDD231 Class Project</strong></p>
+                <p>Linda Torres</p>
+                <p>&copy; <span id="currentyear"></span> Mexico City Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
