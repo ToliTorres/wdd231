@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You | Mexico City Chamber</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/thankyou.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="header-top">
+                <img src="images/chamber-mexico.jpg" alt="Mexico City Chamber of Commerce logo" class="logo">
+                <h1>Thank You for Joining!</h1>
+                <button id="menuBtn" aria-label="Open Menu">☰</button>
+            </div>
+    
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html" class="active">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="member-card">
+        <h2>Your Application Details</h2>
+        <p><strong>First Name:</strong> <span id="fname"></span></p>
+        <p><strong>Last Name:</strong> <span id="lname"></span></p>
+        <p><strong>Email:</strong> <span id="email"></span></p>
+        <p><strong>Mobile:</strong> <span id="phone"></span></p>
+        <p><strong>Business:</strong> <span id="business"></span></p>
+        <p><strong>Submitted:</strong> <span id="timestamp"></span></p>
+
+        <button onclick="goBack()">← Back to Previous Page</button>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+    
+            <!-- Left: Contact Info -->
+            <div class="footer-contact">
+                <p><strong>Mexico City Chamber of Commerce</strong></p>
+                <p>Av. Paseo de la Reforma 42</p>
+                <p>Mexico City, CP 06040</p>
+                <p>primercontacto@ccmexico.com.mx</p>
+                <p>(55) 3685-2269</p>
+            </div>
+    
+            <!-- Center: Social Media -->
+            <div class="footer-social">
+                <a href="https://www.facebook.com/CANACOMexico">
+                    <img src="images/fb-icon.png" alt="Official Facebook page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://www.instagram.com/canacomexico/">
+                    <img src="images/ig-icon.png" alt="Official Instagram page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://www.linkedin.com/company/canaco-cdmx/mycompany/">
+                    <img src="images/in-icon.png" alt="Official LinkedIn page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://x.com/CANACOMexico">
+                    <img src="images/x-icon.png" alt="Official X page of the Mexico City Chamber of Commerce" loading="lazy"
+                        width="80" height="80">
+                </a>
+                <a href="https://www.youtube.com/@CANACOCiudaddeMexico">
+                    <img src="images/yt-icon.png" alt="Official YouTube page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+    
+    
+            </div>
+    
+            <!-- Right: Project Info -->
+            <div class="footer-project">
+                <p><strong>WDD231 Class Project</strong></p>
+                <p>Linda Torres</p>
+                <p>&copy; <span id="currentyear"></span> Mexico City Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+    
+        </div>
+    </footer>
+</body>
+
+</html>

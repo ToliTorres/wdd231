@@ -49,8 +49,9 @@ function displayResults(data) {
     captionDesc.textContent = desc.charAt(0).toUpperCase() + desc.slice(1);
 }
 
-
-apiFetch();
+if (currentTemp && weatherIcon && captionDesc) {
+    apiFetch();
+}
 
 // 3-Day Forecast
 // OpenWeatherMap API key used for academic purposes only
@@ -97,4 +98,40 @@ function displayForecast(data) {
     });
 }
 
-apiForecast();
+if (document.querySelector('#day1')) {
+    apiForecast();
+}
+
+// Join Page Logic
+// Timestamp for join form
+const timestampField = document.getElementById('timestamp');
+if (timestampField) {
+    timestampField.value = new Date().toISOString();
+}
+
+// Membership modals
+window.openModal = (id) => {
+    const modal = document.getElementById(id);
+    if (modal) modal.showModal();
+};
+
+window.closeModal = (id) => {
+    const modal = document.getElementById(id);
+    if (modal) modal.close();
+};
+
+// const modals = {
+//     np: document.getElementById('npModal'),
+//     bronze: document.getElementById('bronzeModal'),
+//     silver: document.getElementById('silverModal'),
+//     gold: document.getElementById('goldModal')
+// };
+
+// // Expose functions globally (for inline onclick)
+// window.openModal = (level) => {
+//     modals[level]?.showModal();
+// };
+
+// window.closeModal = (level) => {
+//     modals[level]?.close();
+// };

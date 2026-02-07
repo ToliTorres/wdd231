@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Chamber | Mexico City Chamber</title>
+    <meta name="description" content="Apply to join the Mexico City Chamber of Commerce.">
+    <meta name="author" content="Linda Torres">
+
+    <link rel="icon" href="images/chamber-favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/chamber.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="header-top">
+                <img src="images/chamber-mexico.jpg" alt="Mexico City Chamber of Commerce logo" class="logo">
+                <h1>Mexico City Chamber of Commerce</h1>
+                <button id="menuBtn" aria-label="Open Menu">☰</button>
+            </div>
+
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html" class="active">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="join-layout">
+        <!-- Form -->
+        <form method="get" action="thankyou.html">
+            <h2>Membership Application</h2>
+
+            <label>
+                First Name
+                <input type="text" name="fname" required title="First Name" autocomplete="given-name">
+            </label>
+
+            <label>
+                Last Name
+                <input type="text" name="lname" required title="Last Name" autocomplete="family-name">
+            </label>
+
+            <label>
+                Organizational Title
+                <input type="text" name="orgtitle" title="Your title within the organization"
+                    autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+            </label>
+
+            <label>
+                Email
+                <input type="email" name="email" required title="Email Address" autocomplete="email"
+                    placeholder="example@email.com">
+            </label>
+
+            <label>
+                Mobile Phone
+                <input type="tel" name="phone" required title="Mobile Phone" autocomplete="tel">
+            </label>
+
+            <label>
+                Business Name
+                <input type="text" name="business" required title="Business Name" autocomplete="organization">
+            </label>
+
+            <label>
+                Membership Level
+                <select name="membership" required title="Membership Level">
+                    <option value="">Select a level</option>
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+
+            <label>
+                Business Description
+                <textarea name="description" title="Business Description"></textarea>
+            </label>
+
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <input type="submit" value="Apply for Membership">
+        </form>
+
+        <!-- Membership Cards -->
+        <section class="membership-cards">
+            <div class="card">
+                <h3>NP Membership</h3>
+                <p>No fee for nonprofit organizations.</p>
+                <a onclick="openModal('npModal')">View benefits</a>
+            </div>
+
+            <div class="card">
+                <h3>Bronze Membership</h3>
+                <p>Basic exposure and networking.</p>
+                <a onclick="openModal('bronzeModal')">View benefits</a>
+            </div>
+
+            <div class="card">
+                <h3>Silver Membership</h3>
+                <p>Training and event discounts.</p>
+                <a onclick="openModal('silverModal')">View benefits</a>
+            </div>
+
+            <div class="card">
+                <h3>Gold Membership</h3>
+                <p>Premium visibility and advertising.</p>
+                <a onclick="openModal('goldModal')">View benefits</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modals -->
+    <dialog id="npModal">
+        <h3>NP Membership Benefits</h3>
+        <p>Community events, networking opportunities, and nonprofit support.</p>
+        <button onclick="closeModal('npModal')">Close</button>
+    </dialog>
+
+    <dialog id="bronzeModal">
+        <h3>Bronze Membership Benefits</h3>
+        <p>Directory listing, events access, and networking opportunities.</p>
+        <button onclick="closeModal('bronzeModal')">Close</button>
+    </dialog>
+
+    <dialog id="silverModal">
+        <h3>Silver Membership Benefits</h3>
+        <p>Training sessions, event discounts, and increased exposure.</p>
+        <button onclick="closeModal('silverModal')">Close</button>
+    </dialog>
+
+    <dialog id="goldModal">
+        <h3>Gold Membership Benefits</h3>
+        <p>Homepage spotlight, premium advertising, and exclusive events.</p>
+        <button onclick="closeModal('goldModal')">Close</button>
+    </dialog>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+    
+            <!-- Left: Contact Info -->
+            <div class="footer-contact">
+                <p><strong>Mexico City Chamber of Commerce</strong></p>
+                <p>Av. Paseo de la Reforma 42</p>
+                <p>Mexico City, CP 06040</p>
+                <p>primercontacto@ccmexico.com.mx</p>
+                <p>(55) 3685-2269</p>
+            </div>
+    
+            <!-- Center: Social Media -->
+            <div class="footer-social">
+                <a href="https://www.facebook.com/CANACOMexico">
+                    <img src="images/fb-icon.png" alt="Official Facebook page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://www.instagram.com/canacomexico/">
+                    <img src="images/ig-icon.png" alt="Official Instagram page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://www.linkedin.com/company/canaco-cdmx/mycompany/">
+                    <img src="images/in-icon.png" alt="Official LinkedIn page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+                <a href="https://x.com/CANACOMexico">
+                    <img src="images/x-icon.png" alt="Official X page of the Mexico City Chamber of Commerce" loading="lazy"
+                        width="80" height="80">
+                </a>
+                <a href="https://www.youtube.com/@CANACOCiudaddeMexico">
+                    <img src="images/yt-icon.png" alt="Official YouTube page of the Mexico City Chamber of Commerce"
+                        loading="lazy" width="80" height="80">
+                </a>
+    
+    
+            </div>
+    
+            <!-- Right: Project Info -->
+            <div class="footer-project">
+                <p><strong>WDD231 Class Project</strong></p>
+                <p>Linda Torres</p>
+                <p>&copy; <span id="currentyear"></span> Mexico City Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+    
+        </div>
+    </footer>
+</body>
+
+</html>
