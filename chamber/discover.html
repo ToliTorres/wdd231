@@ -4,71 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Business Directory | Mexico City Chamber</title>
-    <meta name="description" content="Business directory for the Mexico City Chamber of Commerce.">
+
+    <title>Discover | Mexico City Chamber</title>
+    <meta name="description" content="Discover Mexico City attractions and business environment.">
     <meta name="author" content="Linda Torres">
 
-    <!-- Favicon -->
     <link rel="icon" href="images/chamber-favicon.ico">
 
-    <!-- Open Graph Meta -->
-    <meta property="og:title" content="Mexico City Chamber of Commerce Directory">
-    <meta property="og:description" content="Explore local businesses that are members of the Mexico City Chamber of Commerce.">
-    <meta property="og:image" content="https://tolitorres.github.io/wdd231/chamber/images/chamber-mexico.jpg">
-    <meta property="og:url" content="https://tolitorres.github.io/wdd231/chamber/directory.html">
-
-    <!-- Google Fonts -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
         rel="stylesheet">
 
-    
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-    <script src="scripts/directory.js" defer></script>
+    <!-- JS -->
+    <script type="module" src="scripts/discover.js" defer></script>
     <script src="scripts/chamber.js" defer></script>
 </head>
+
 <body>
     <header>
         <div class="header-inner">
             <div class="header-top">
-                <img src="images/chamber-mexico.jpg" alt="Mexico City Chamber of Commerce logo" class="logo" fetchpriority="high" width="300" height="200">
+                <img src="images/chamber-mexico.jpg" alt="Mexico City Chamber Logo" class="logo">
                 <h1>Mexico City Chamber of Commerce</h1>
                 <button id="menuBtn" aria-label="Open Menu">☰</button>
             </div>
-    
+
             <nav id="navMenu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="discover.html" class="active">Discover</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    
-    <main>
-        <h2>Business Directory</h2>
-    
-        <div class="view-toggle">
-            <button id="gridView">Grid View</button>
-            <button id="listView">List View</button>
-        </div>
-    
-        <div id="members" class="grid"></div>
+    <main class="discover-grid">
+        <!-- Visit Message -->
+        <section class="visit-message">
+            <h2>Visitor Information</h2>
+            <p id="visitMessage"></p>
+        </section>
+
+        <!-- Discover Cards Container -->
+        <section class="discover-cards" id="discoverCards">
+            <!-- Cards injected by discover.js -->
+        </section>
     </main>
 
+    <!-- FOOTER -->
     <footer class="site-footer">
         <div class="footer-grid">
-    
-            <!-- Left: Contact Info -->
+
+            <!-- Contact -->
             <div class="footer-contact">
                 <p><strong>Mexico City Chamber of Commerce</strong></p>
                 <p>Av. Paseo de la Reforma 42</p>
@@ -76,37 +72,36 @@
                 <p>primercontacto@ccmexico.com.mx</p>
                 <p>(55) 3685-2269</p>
             </div>
-    
-            <!-- Center: Social Media -->
+
+            <!-- Social -->
             <div class="footer-social">
                 <a href="https://www.facebook.com/CANACOMexico">
-                    <img src="images/fb-icon.png" alt="Official Facebook page of the Mexico City Chamber of Commerce" loading="lazy" width="80" height="80">
+                    <img src="images/fb-icon.png" alt="Facebook" loading="lazy" width="60" height="60">
                 </a>
                 <a href="https://www.instagram.com/canacomexico/">
-                    <img src="images/ig-icon.png" alt="Official Instagram page of the Mexico City Chamber of Commerce" loading="lazy" width="80" height="80">
+                    <img src="images/ig-icon.png" alt="Instagram" loading="lazy" width="60" height="60">
                 </a>
-                <a href="https://www.linkedin.com/company/canaco-cdmx/mycompany/" >
-                    <img src="images/in-icon.png" alt="Official LinkedIn page of the Mexico City Chamber of Commerce" loading="lazy" width="80" height="80">
+                <a href="https://www.linkedin.com/company/canaco-cdmx/mycompany/">
+                    <img src="images/in-icon.png" alt="LinkedIn" loading="lazy" width="60" height="60">
                 </a>
                 <a href="https://x.com/CANACOMexico">
-                    <img src="images/x-icon.png" alt="Official X page of the Mexico City Chamber of Commerce" loading="lazy" width="80" height="80">
+                    <img src="images/x-icon.png" alt="X Social" loading="lazy" width="60" height="60">
                 </a>
                 <a href="https://www.youtube.com/@CANACOCiudaddeMexico">
-                    <img src="images/yt-icon.png" alt="Official YouTube page of the Mexico City Chamber of Commerce" loading="lazy" width="80" height="80">
+                    <img src="images/yt-icon.png" alt="YouTube" loading="lazy" width="60" height="60">
                 </a>
-                
-                
             </div>
-    
-            <!-- Right: Project Info -->
+
+            <!-- Project Info -->
             <div class="footer-project">
                 <p><strong>WDD231 Class Project</strong></p>
                 <p>Linda Torres</p>
                 <p>&copy; <span id="currentyear"></span> Mexico City Chamber of Commerce</p>
                 <p>Last Modification: <span id="lastModified"></span></p>
             </div>
-    
+
         </div>
     </footer>
 </body>
+
 </html>
