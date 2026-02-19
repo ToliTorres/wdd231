@@ -1,0 +1,59 @@
+:root {
+    --primary: #4A90A4;
+    --bg: #F4F7F8;
+    --accent: #A3D9C9;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
+
+@media(min-width:768px) {
+    nav {
+        display: flex;
+        gap: 1rem;
+    }
+
+    #menuBtn {
+        display: none;
+    }
+}
+
+#techniquesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+button {
+    background: var(--accent);
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
