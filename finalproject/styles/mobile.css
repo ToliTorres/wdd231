@@ -349,6 +349,13 @@ footer {
     text-align: center;
 }
 
+.hero img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Social */
 .social-icons {
     display: flex;
