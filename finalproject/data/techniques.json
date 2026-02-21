@@ -1,0 +1,110 @@
+[
+    {
+        "title": "Box Breathing",
+        "category": "Breathing",
+        "duration": "5 min",
+        "benefit": "Reduces anxiety and stabilizes breathing"
+    },
+    {
+        "title": "4-7-8 Breathing",
+        "category": "Breathing",
+        "duration": "4 min",
+        "benefit": "Helps with falling asleep faster"
+    },
+    {
+        "title": "Body Scan Meditation",
+        "category": "Relaxation",
+        "duration": "10 min",
+        "benefit": "Releases physical tension"
+    },
+    {
+        "title": "Mindful Walking",
+        "category": "Mindfulness",
+        "duration": "15 min",
+        "benefit": "Improves mental clarity"
+    },
+    {
+        "title": "Gratitude Journaling",
+        "category": "Mental Wellness",
+        "duration": "5 min",
+        "benefit": "Boosts positive mindset"
+    },
+    {
+        "title": "Pomodoro Focus Session",
+        "category": "Focus",
+        "duration": "25 min",
+        "benefit": "Improves productivity and concentration"
+    },
+    {
+        "title": "Progressive Muscle Relaxation",
+        "category": "Relaxation",
+        "duration": "12 min",
+        "benefit": "Reduces physical stress"
+    },
+    {
+        "title": "Visualization Meditation",
+        "category": "Meditation",
+        "duration": "8 min",
+        "benefit": "Improves emotional regulation"
+    },
+    {
+        "title": "Digital Detox Break",
+        "category": "Lifestyle",
+        "duration": "30 min",
+        "benefit": "Reduces mental overload"
+    },
+    {
+        "title": "Mindful Tea Drinking",
+        "category": "Mindfulness",
+        "duration": "7 min",
+        "benefit": "Encourages present-moment awareness"
+    },
+    {
+        "title": "Nature Sound Listening",
+        "category": "Relaxation",
+        "duration": "15 min",
+        "benefit": "Promotes calmness and focus"
+    },
+    {
+        "title": "Stretch and Breathe",
+        "category": "Physical Wellness",
+        "duration": "6 min",
+        "benefit": "Relieves muscle tension"
+    },
+    {
+        "title": "Sleep Preparation Routine",
+        "category": "Sleep",
+        "duration": "20 min",
+        "benefit": "Improves sleep quality"
+    },
+    {
+        "title": "Mindful Eating",
+        "category": "Mindfulness",
+        "duration": "15 min",
+        "benefit": "Improves digestion and awareness"
+    },
+    {
+        "title": "Calm Music Reset",
+        "category": "Relaxation",
+        "duration": "10 min",
+        "benefit": "Lowers stress levels"
+    },
+    {
+        "title": "Positive Affirmation Practice",
+        "category": "Mental Wellness",
+        "duration": "3 min",
+        "benefit": "Builds confidence and reduces negative thinking"
+    },
+    {
+        "title": "Desk Reset Breathing",
+        "category": "Work Stress",
+        "duration": "2 min",
+        "benefit": "Quick stress relief during work"
+    },
+    {
+        "title": "Mindful Observation Exercise",
+        "category": "Mindfulness",
+        "duration": "5 min",
+        "benefit": "Improves attention to detail"
+    }
+]

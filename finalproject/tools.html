@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mindful Moments | Tools</title>
+    <meta name="description" content="Breathing exercises and focus timers for stress management.">
+    <meta name="author" content="Linda Torres">
+
+    <link rel="icon" href="images/mindful.ico">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/desktop.css">
+
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mindful Moments</h1>
+    
+        <!-- Hamburger Menu -->
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <!-- ☰ -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="learn.html">Learn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Mindfulness Techniques</h2>
+            <div id="techniquesContainer" class="techniques-grid"></div>
+        </section>
+
+        <section class="focus-timer">
+        
+            <h3>Focus Timer</h3>
+        
+            <!-- Selector -->
+            <select id="timeSelector">
+                <option value="300">5 min</option>
+                <option value="600">10 min</option>
+                <option value="900" selected>15 min</option>
+                <option value="1500">25 min</option>
+            </select>
+        
+            <!-- Animation breath -->
+            <div class="breathing-circle"></div>
+        
+            <!-- Display -->
+            <p id="timerDisplay">00:00</p>
+        
+            <button id="startTimer">Start Session</button>
+        
+        </section>
+        
+    </main>
+
+    <dialog id="exerciseModal">
+        <h3>Breathing Exercise</h3>
+        <p>Breathe in for 4 seconds. Hold 4. Out 6.</p>
+        <button id="closeModal">Close</button>
+    </dialog>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+    
+            <!-- Brand -->
+            <div class="footer-brand">
+                <h3>Mindful Moments</h3>
+                <p>Breathe. Reset. Refocus.</p>
+            </div>
+    
+            <!-- Social Media -->
+            <div class="social-icons">
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                    <img src="images/instagram.png" alt="Instagram icon">
+                </a>
+    
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                    <img src="images/facebook.png" alt="Facebook icon">
+                </a>
+    
+                <a href="https://www.tiktok.com/" target="_blank" aria-label="TikTok">
+                    <img src="images/tiktok.png" alt="TikTok icon">
+                </a>
+    
+                <a href="https://x.com/" target="_blank" aria-label="X">
+                    <img src="images/x.png" alt="X icon">
+                </a>
+    
+                <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">
+                    <img src="images/youtube.png" alt="YouTube icon">
+                </a>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mindful Moments | Designed with calm energy 🌿</p>
+            <a href="https://youtu.be/kO5I0p3IuiQ">What Is Mindfulness?</a>
+        </div>
+    
+    </footer>
+
+</body>
+
+</html>

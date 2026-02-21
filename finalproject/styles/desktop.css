@@ -1,0 +1,191 @@
+@media (min-width: 768px) {
+
+    /* Layout General */
+    body {
+        font-size: 18px;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2.5rem;
+    }
+
+    /* Header */
+    header {
+        padding: 1.5rem 3rem;
+    }
+
+    .main-nav {
+        display: flex;
+        position: static;
+    }
+
+    .main-nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2rem;
+        margin: 0;
+    }
+
+    nav a {
+        font-size: 1.05rem;
+    }
+
+    /* Hero / Home Sections */
+    .hero {
+        padding: 4rem 2rem;
+        text-align: center;
+        background: linear-gradient(135deg,
+                #F4FAF8 0%,
+                #EDE7F6 100%);
+        border-radius: 24px;
+    }
+
+    .hero h1 {
+        font-size: 2.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    /* Card Layout */
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .card {
+        padding: 2rem;
+        border-radius: 20px;
+        transition: transform .3s ease, box-shadow .3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Buttons */
+    .btn-primary {
+        font-size: 1.05rem;
+        padding: 1rem 2rem;
+    }
+
+    /* Forms */
+    form {
+        max-width: 650px;
+        margin: 2rem auto;
+        padding: 2.5rem;
+    }
+
+    input,
+    textarea,
+    select {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    /* Modal Desktop */
+    .modal-content {
+        max-width: 600px;
+        padding: 2.5rem;
+        border-radius: 24px;
+    }
+
+    /* HERO */
+    .learn-hero {
+        text-align: center;
+        padding: 4rem 2rem;
+        background: linear-gradient(to bottom, #eef7f5, #ffffff);
+    }
+
+    .learn-hero h2 {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .cta-btn {
+        background: #7fb8a4;
+        color: white;
+        padding: 0.7rem 1.4rem;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+
+    /* BENEFITS */
+    .learn-benefits {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 2rem;
+    }
+
+    .benefit-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    /* DYNAMIC GRID */
+    .learn-dynamic {
+        width: 100%;
+    }
+
+    .learn-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+
+        max-width: 1200px;
+        margin: 2rem auto;
+    }
+
+    .learn-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        transition: transform .3s ease;
+    }
+
+    .learn-card:hover {
+        transform: translateY(-5px);
+    }
+
+    /* ROUTINES */
+    .learn-routines {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .routine-card {
+        background: #f5fbf9;
+        padding: 1.5rem;
+        border-radius: 16px;
+        width: 260px;
+        text-align: center;
+    }
+
+    /* Footer */
+    footer {
+        padding: 3rem;
+        font-size: 1rem;
+    }
+
+}
