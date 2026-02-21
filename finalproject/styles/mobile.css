@@ -52,6 +52,21 @@ nav a:hover {
     color: var(--white);
 }
 
+.header-logo {
+    width: 100px;
+    height: auto;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
 /* Main */
 main {
     padding: 1rem;

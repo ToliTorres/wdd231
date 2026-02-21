@@ -34,6 +34,11 @@
         font-size: 1.05rem;
     }
 
+    .header-logo {
+        width: 60px;
+        height: auto;
+    }
+
     /* Hero / Home Sections */
     .hero {
         padding: 4rem 2rem;
