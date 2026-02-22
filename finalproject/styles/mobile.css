@@ -196,7 +196,7 @@ select:focus {
 }
 
 .benefit-card {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 1.2rem;
     border-radius: 14px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, .05);
@@ -250,7 +250,7 @@ footer {
 
 .footer-brand h3 {
     margin: 0;
-    /* color: #2F3E46; */
+    color: var(--text-soft);
 }
 
 .footer-brand p {
@@ -344,7 +344,7 @@ footer {
 
 .social-icons a {
     display: inline-flex;
-    background: white;
+    background: rgb(255, 255, 255);
     padding: .6rem;
     border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, .05);

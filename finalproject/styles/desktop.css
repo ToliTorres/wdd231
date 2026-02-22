@@ -45,8 +45,8 @@
         padding: 4rem 2rem;
         text-align: center;
         background: linear-gradient(135deg,
-                #F4FAF8 0%,
-                #EDE7F6 100%);
+                rgb(244, 250, 248) 0%,
+                rgb(237, 231, 246) 100%);
         border-radius: 24px;
     }
 
@@ -96,7 +96,7 @@
     .learn-hero {
         text-align: center;
         padding: 4rem 2rem;
-        background: linear-gradient(to bottom, #eef7f5, #ffffff);
+        background: linear-gradient(to bottom, rgb(238, 247, 245), rgb(255, 255, 255));
     }
 
     .learn-hero h2 {
