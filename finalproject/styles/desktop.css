@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
 
-    /* Layout General */
+    /* General Layout */
     body {
         font-size: 18px;
         font-family: 'Poppins', sans-serif;
@@ -65,25 +65,6 @@
         display: none;
     }
 
-    /* Card Layout */
-    .card-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2.5rem;
-        margin-top: 2rem;
-    }
-
-    .card {
-        padding: 2rem;
-        border-radius: 20px;
-        transition: transform .3s ease, box-shadow .3s ease;
-    }
-
-    .card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
-    }
-
     /* Buttons */
     .btn-primary {
         font-size: 1.05rem;
@@ -111,7 +92,7 @@
         border-radius: 24px;
     }
 
-    /* HERO */
+    /* Hero */
     .learn-hero {
         text-align: center;
         padding: 4rem 2rem;
@@ -124,8 +105,8 @@
     }
 
     .cta-btn {
-        background: #072d20;
-        color: white;
+        background: rgb(7, 45, 32);
+        color: rgb(255, 255, 255);
         padding: 0.7rem 1.4rem;
         border-radius: 30px;
         text-decoration: none;
@@ -139,7 +120,7 @@
     }
 
     .benefit-card {
-        background: white;
+        background: rgb(255, 255, 255);
         padding: 1.5rem;
         border-radius: 16px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -158,15 +139,6 @@
         max-width: 1200px;
         margin: 2rem auto;
     }
-
-    .learn-card {
-        background: white;
-        padding: 1.5rem;
-        border-radius: 16px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-        transition: transform .3s ease;
-    }
-
     .learn-card:hover {
         transform: translateY(-5px);
     }
@@ -181,7 +153,7 @@
     }
 
     .routine-card {
-        background: #f5fbf9;
+        background: rgb(245, 251, 249);
         padding: 1.5rem;
         border-radius: 16px;
         width: 260px;

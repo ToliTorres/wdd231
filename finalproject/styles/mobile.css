@@ -1,12 +1,12 @@
 :root {
-    --bg-main: #c2d9f0;
-    --bg-soft: #EDE7F6;
-    --primary: #7BAA9E;
-    --accent: #8CAFCF;
-    --text-main: #2F3E46;
-    --text-soft: #445A64;
-    --header: #9cb4ec;
-    --white: #FFFFFF;
+    --bg-main: rgb(194, 217, 240);
+    --bg-soft: rgb(237, 231, 246);
+    --primary: rgb(123, 170, 158);
+    --accent: rgb(140, 175, 207);
+    --text-main: rgb(47, 62, 70);
+    --text-soft: rgb(0, 0, 0);
+    --header: rgb(156, 180, 236);
+    --white: rgb(255, 255, 255);
     --radius: 16px;
 }
 
@@ -82,7 +82,7 @@ main {
 
 /* Cards */
 .card {
-    background: #f6f4fb;
+    background: rgb(246, 244, 251);
     border-radius: 14px;
     padding: 1.4rem;
     box-shadow: 0 6px 20px rgba(0, 0, 0, .06);
@@ -107,7 +107,7 @@ main {
 }
 
 .btn-primary:hover {
-    background: #6a968c;
+    background: rgb(106, 150, 140);
     transform: translateY(-2px);
 }
 
@@ -134,7 +134,7 @@ select {
     padding: .5rem;
     margin: .3rem 0 .8rem;
     border-radius: 10px;
-    border: 1px solid #dcdcdc;
+    border: 1px solid rgb(220, 220, 220);
     font-size: 15px;
 }
 
@@ -161,7 +161,7 @@ select:focus {
     height: 120px;
     border-radius: 50%;
     margin: 20px auto;
-    background: radial-gradient(circle, #cde7ff, #a8dadc);
+    background: radial-gradient(circle, rgb(205, 231, 255), rgb(168, 218, 220));
     animation: breathe 6s ease-in-out infinite;
 }
 
@@ -183,7 +183,7 @@ select:focus {
 .learn-hero {
     text-align: center;
     padding: 2rem 1rem;
-    background: linear-gradient(to bottom, #eef7f5, #ffffff);
+    background: linear-gradient(to bottom, rgb(238, 247, 245), rgb(255, 255, 255));
     border-radius: 16px;
 }
 
@@ -211,13 +211,6 @@ select:focus {
     max-width: 1100px;
 }
 
-.learn-card {
-    background: white;
-    padding: 1.2rem;
-    border-radius: 14px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, .05);
-}
-
 /* ROUTINES */
 .learn-routines {
     display: flex;
@@ -227,7 +220,7 @@ select:focus {
 }
 
 .routine-card {
-    background: #f5fbf9;
+    background: rgb(245, 251, 249);
     padding: 1.3rem;
     border-radius: 14px;
     text-align: center;
@@ -242,7 +235,7 @@ footer {
 }
 
 .site-footer {
-    background: #cfc7f0;
+    background: rgb(207, 199, 240);
     padding: 2rem 1rem;
     /* margin-top: .2rem; */
 }
@@ -257,12 +250,12 @@ footer {
 
 .footer-brand h3 {
     margin: 0;
-    color: #2F3E46;
+    /* color: #2F3E46; */
 }
 
 .footer-brand p {
     margin: .5rem 0 0;
-    color: #445A64;
+    color: rgb(68, 90, 100);
 }
 
 /* Navigation */
@@ -272,21 +265,6 @@ footer {
 
 .main-nav.show {
     display: block;
-}
-
-.footer-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-nav a {
-    text-decoration: none;
-    color: #2F3E46;
-    font-weight: 600;
-}
-
-.footer-nav a:hover {
-    color: #7BAA9E;
 }
 
 /* Hamburger */
@@ -337,8 +315,8 @@ footer {
 
 .hero {
     background: linear-gradient(135deg,
-            #F4FAF8 0%,
-            #EDE7F6 100%);
+            rgb(244, 250, 248) 0%,
+            rgb(237, 231, 246) 100%);
     border-radius: 20px;
 
     padding: 2rem 1.5rem;
@@ -387,5 +365,5 @@ footer {
 .footer-bottom {
     margin-top: 2rem;
     font-size: .9rem;
-    color: #445A64;
+    color: rgb(68, 90, 100);
 }
