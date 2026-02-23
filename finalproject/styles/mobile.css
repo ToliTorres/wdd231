@@ -8,15 +8,15 @@
     /* Texto principal */
     --text-soft: rgb(90, 90, 90);
     /* Texto secundario ajustado para mejor contraste */
-    --primary: rgb(139, 110, 255);
+    --primary: rgb(68, 21, 255);
     /* Botones principales */
-    --primary-hover: rgb(76, 16, 255);
+    --primary-hover: rgb(50, 9, 174);
     /* Hover botones principales */
     --accent: rgb(147, 197, 253);
     /* Highlights y hover links */
     --header: rgb(199, 231, 217);
     /* Header */
-    --footer: rgb(199, 240, 217);
+    --footer: rgb(199, 231, 217);
     /* Footer verde suave */
     --radius: 16px;
     /* Bordes redondeados */
