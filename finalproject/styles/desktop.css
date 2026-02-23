@@ -45,8 +45,8 @@
         padding: 4rem 2rem;
         text-align: center;
         background: linear-gradient(135deg,
-                rgb(244, 250, 248) 0%,
-                rgb(237, 231, 246) 100%);
+                rgb(244, 250, 248) 10%,
+                rgb(254, 254, 243) 90%);
         border-radius: 24px;
     }
 
